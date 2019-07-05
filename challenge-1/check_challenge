@@ -1,7 +1,5 @@
 #! /bin/bash
 
-set -x
-
 GIT_DIR="/challenge/.remote"
 GIT_FLAGS="--git-dir=${GIT_DIR}"
 
@@ -11,9 +9,10 @@ COMMIT=$(git ${GIT_FLAGS} rev-parse master)
 
 echo "Inspecting commit ${COMMIT}"
 
+## Check that the root tree has the proper hash
 if git ${GIT_FLAGS} cat-file -p ${COMMIT} | grep "tree 2642f3c7e0342fc9b7270fe26cd38edbe1bc5c5a"; then
     echo "Passed!"
     exit 0
 fi
 
-echo "Not quite there"
+echo "Not quite there, but keep trying!"
