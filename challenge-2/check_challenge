@@ -1,0 +1,18 @@
+#! /bin/bash
+
+GIT_DIR="/challenge/.remote"
+GIT_FLAGS="--git-dir=${GIT_DIR}"
+
+echo "Checking level..."
+
+COMMIT=$(git ${GIT_FLAGS} rev-parse master)
+
+echo "Inspecting commit ${COMMIT}"
+
+## Check that the root tree has the proper hash
+if [[ ${COMMIT} == "9a010cc325b4619756f284cf27d0b2fa19e30ff8" ]]; then
+    echo "Passed!"
+    exit 0
+fi
+
+echo "Not quite there, but keep trying!"
