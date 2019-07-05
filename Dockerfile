@@ -7,8 +7,9 @@ COPY .gitconfig /root/.gitconfig
 WORKDIR /challenge
 COPY README.md README.md
 
-COPY remote /challenge/.remote
-COPY repo   /challenge/repo
+COPY remote     .remote
+COPY repo/git   repo/.git
+COPY repo/tree  repo
 
 COPY check_challenge /usr/local/sbin
 
