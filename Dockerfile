@@ -13,4 +13,6 @@ COPY repo/tree  repo
 
 COPY check_challenge /usr/local/sbin
 
+RUN echo "source /usr/share/bash-completion/completions/git" >> /root/.bashrc
+
 ENTRYPOINT ["/bin/bash"]

@@ -30,6 +30,10 @@ run: build
 	sudo docker run --rm -it gitchallenge/challenge-$(CHALLENGE)
 .PHONY: run
 
+run-vim: build
+	sudo docker run --rm -it -v $(HOME)/.vim:/root/.vim -v $(HOME)/.vimrc:/root/.vimrc gitchallenge/challenge-$(CHALLENGE)
+.PHONY: run
+
 push: build
 	sudo docker push gitchallenge/challenge-$(CHALLENGE)
 .PHONY: push
