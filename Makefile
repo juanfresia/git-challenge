@@ -18,9 +18,13 @@ pack:
 .PHONY:pack
 
 build:
-	sudo docker build -t challenge-$(CHALLENGE) -f $(DOCKERFILE) .
+	sudo docker build -t gitchallenge/challenge-$(CHALLENGE) -f $(DOCKERFILE) .
 .PHONY: build
 
 run: build
-	sudo docker run --rm -it challenge-$(CHALLENGE)
+	sudo docker run --rm -it gitchallenge/challenge-$(CHALLENGE)
 .PHONY: run
+
+push: build
+	sudo docker push gitchallenge/challenge-$(CHALLENGE)
+.PHONY: push
