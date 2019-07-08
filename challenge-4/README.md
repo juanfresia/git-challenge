@@ -1,13 +1,16 @@
-# Reverting the history
+# Someone else changed the history
 
-You've just screwed it up, again!! You pushed a commit that never should've gone to
-master.
+Oh, not again...
+Fortunately, you've *not* screwed it up this time, someone else has done it for you!
 
-Last time you erased a commit from the remote history people started complaining
-they got things messed up. You learned from your mistakes, now you are going to
-revert the changes without altering the history.
+While you were working (and committed!) the next set of changes, your co-worker 
+(let's just call her Weathley) pushed a commit that never should've gone to master.
+You have this commit in your local history, but Weathley removed it from the
+remote, so things are not that easy to fix... but you have to do it or else
+re-do your changes.
 
-Revert the last commit, that is, push a _new_ commit that undoes its changes.
+You have to somehow _remove_ Wheatley's ghost commit from your history _before_
+pushing your changes to the remote.
 
 After you are done, run the `check_challenge` command to check if you passed the challenge.
 
