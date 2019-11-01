@@ -12,3 +12,5 @@ Delete the commit, leave the history as if the latest commit never happened.
 
 After you are done, run the `check_challenge` command to check if you passed the challenge.
 
+Hint: you may need to force push your changes!
+

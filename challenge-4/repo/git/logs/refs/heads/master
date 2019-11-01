@@ -1,5 +1,0 @@
-0000000000000000000000000000000000000000 bc255866b36b696f8f465432793d1d5bd6b48267 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562559561 +0000	commit (initial): Hello world
-bc255866b36b696f8f465432793d1d5bd6b48267 c1865bb8ff2ab680405156fa01e87c06fbe1a8a5 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562559846 +0000	pull: Fast-forward
-c1865bb8ff2ab680405156fa01e87c06fbe1a8a5 2fdad7b88f79071d31867f927e78d6472c37a606 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562559936 +0000	commit: Extended greeting
-2fdad7b88f79071d31867f927e78d6472c37a606 c1865bb8ff2ab680405156fa01e87c06fbe1a8a5 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562559958 +0000	reset: moving to HEAD~1
-c1865bb8ff2ab680405156fa01e87c06fbe1a8a5 2fdad7b88f79071d31867f927e78d6472c37a606 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562559976 +0000	pull: Fast-forward
