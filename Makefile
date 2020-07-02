@@ -22,9 +22,15 @@ unpack: repo/git
 .PHONY: unpack
 
 # Create a new remote
-repo-remote:
+remote:
 	git init --bare remote
-.PHONY: repo-remote
+
+# Clone a repo as user
+clone-%: remote
+	echo "cloning as $*"
+	git clone remote $*
+	cat ../users/$*.config >> $*/.git/config
+.PHONY: clone-%
 
 ## Targets to work with docker images
 build:

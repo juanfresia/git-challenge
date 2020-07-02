@@ -1,2 +1,4 @@
-0000000000000000000000000000000000000000 37ec7a0cd2ca6fc57d92125a2be59bbfd4b027ed Cave Johnson <lemons@aperture.com> 1586475708 -0300	initial pull
-37ec7a0cd2ca6fc57d92125a2be59bbfd4b027ed d68de482f5c78817fccdd8081430e4eb1cc01314 Cave Johnson <lemons@aperture.com> 1586475915 -0300	commit: Make it a CLI
+0000000000000000000000000000000000000000 b93d74c64e268c5018187252234c011a14b13b6e Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1593665232 -0300	clone: from /Users/jfresia/fiuba/git-challenge/challenge-4/remote/
+b93d74c64e268c5018187252234c011a14b13b6e bc1ecbd0a4856ef142b69a9df636940564e69a51 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1593665610 -0300	pull: Fast-forward
+bc1ecbd0a4856ef142b69a9df636940564e69a51 38fd9905d5d10016b4171843e46c236538035e00 Player <player@aperture.com> 1593666026 -0300	commit: Your first line
+38fd9905d5d10016b4171843e46c236538035e00 f17ac2e233b78468937d0fd238cb79b688726bd6 Player <player@aperture.com> 1593666047 -0300	commit: Your second line
