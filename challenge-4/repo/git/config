@@ -6,7 +6,7 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = /Users/jfresia/fiuba/git-challenge/challenge-4/remote/
+	url = /challenge/.remote
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin
