@@ -21,6 +21,11 @@ unpack: repo/git
 	rmdir repo/tree
 .PHONY: unpack
 
+# Create a new remote
+repo-remote:
+	git init --bare remote
+.PHONY: repo-remote
+
 ## Targets to work with docker images
 build:
 	sudo docker build -t gitchallenge/challenge-$(CHALLENGE) -f $(DOCKERFILE) .
