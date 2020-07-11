@@ -8,7 +8,7 @@ print("Checking level...")
 
 assert repo.bare, "Oops! Remote is not a bare repository."
 
-assert repo.commit('master').hexsha == "9a010cc325b4619756f284cf27d0b2fa19e30ff8", "Wrong commit"
+assert repo.commit('master').hexsha == "a6778fe48ba5f923fe26dee3052699f85d965af2", "Wrong commit"
 
 print("Passed!")
 
