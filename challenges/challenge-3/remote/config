@@ -3,5 +3,4 @@
 	filemode = true
 	bare = true
 	ignorecase = true
-[remote "origin"]
-	url = /vagrant/git-challenge/challenge-3/repo/
+	precomposeunicode = true

@@ -1,2 +1,2 @@
-0000000000000000000000000000000000000000 28dee06e6f529ae3b805eff4baed2d93c5b93ac9 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562555002 +0000	commit (initial): Hello world
-28dee06e6f529ae3b805eff4baed2d93c5b93ac9 5a231d5de18ab0762d78bd0067f56cd271a375e4 Juan Manuel Fresia <juanmanuelfresia@gmail.com> 1562555046 +0000	commit: Removed those unnecessary colons
+0000000000000000000000000000000000000000 d18aaecda796506b30a4acb44fbba1660861c441 Player <player@aperture.science> 1594510765 -0300	commit (initial): Hello world
+d18aaecda796506b30a4acb44fbba1660861c441 eaff07ddaf2acf046f0d9432d2ec2edd0d276cdb Player <player@aperture.science> 1594510830 -0300	commit: Remove those unnecessary semicolons
