@@ -21,6 +21,17 @@ unpack: repo/git
 	rmdir repo/tree
 .PHONY: unpack
 
+# Create a new remote
+remote:
+	git init --bare remote
+
+# Clone a repo as user
+clone-%: remote
+	echo "cloning as $*"
+	git clone remote $*
+	cat ../../users/$*.config >> $*/.git/config
+.PHONY: clone-%
+
 ## Targets to work with docker images
 build:
 	sudo docker build -t gitchallenge/challenge-$(CHALLENGE) -f $(DOCKERFILE) .
