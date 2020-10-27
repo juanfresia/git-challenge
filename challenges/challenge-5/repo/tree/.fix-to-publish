@@ -1,0 +1,9 @@
+# Hey, you can use this... run it in any commit and it will fix it for you!!
+# You thank me later friend.
+#       - GLaDOS
+
+sed -i -e 's/"2d85d816-91f5-4592-afdc-f4c76e816b8d"/os.getenv("TOP_SECRET_API_TOKEN")/' connect.py
+if ! grep -qs "import os" connect.py; then
+    sed -i -e '/import/a import os' connect.py
+fi
+
