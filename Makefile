@@ -18,6 +18,7 @@ pack: repo/.git
 unpack: repo/git
 	mv repo/git repo/.git
 	mv repo/tree/* repo/
+	mv repo/tree/.* repo/ || true
 	rmdir repo/tree
 .PHONY: unpack
 
